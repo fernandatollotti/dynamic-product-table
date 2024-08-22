@@ -1,0 +1,100 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { font-size: 62.5%; }
+
+body { font-family: 'Poppins',sans-serif; }
+
+button { border: none; }
+
+table { border-collapse: collapse; }
+
+/* reused style */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.spacing {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 80px;
+}
+
+h2 { font-size: 2.8rem; }
+
+/* form */
+.register {
+  border: 1px solid #ddd;
+  padding: 50px 40px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.form { 
+  width: 360px;
+  margin-top: 32px; 
+}
+
+.form .form_item {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  padding: 14px;
+  margin-bottom: 18px;
+}
+
+.form .message_error {
+  font-size: 1.4rem;
+  color: #F80834;
+}
+
+.form .btn_save {
+  display: block;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #0069d9;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+/* table */
+#tb_product { 
+  min-width: 500px;
+  font-size: 1.6rem; 
+}
+
+#tb_product thead tr {
+  background-color: #212529;
+  color: #fff;
+  text-align: left;
+}
+
+#tb_product thead tr, 
+#tb_product thead td {
+  padding: 12px 15px;
+  font-weight: 600;
+}
+
+#tb_product tbody tr { border-bottom: 1px solid #ddd; }
+
+#tb_product tbody tr td { padding: 12px 15px; }
+
+#tb_product tbody tr:nth-of-type(even) {background-color: #f2f2f2;}
+
+/* media querie */
+@media screen and (max-width: 768px) {
+  .register { margin-bottom: 32px; }
+}
