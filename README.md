@@ -4,7 +4,7 @@
 Uma aplicação simples para cadastro de produtos, onde é possível registrar o nome e o valor de cada item. O projeto armazena as informações em uma tabela, exibindo um código único para cada produto.
 
 [![Link do Projeto](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://dynamic-product-table.netlify.app/) 
-[![Link do Projeto](https://img.shields.io/badge/Acesse%20o%20Projeto-E94D5F?style=for-the-badge)]([https://web.dio.me/lab/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e](https://dynamic-product-table.netlify.app/))
+[![Link do Projeto](https://img.shields.io/badge/Acesse%20o%20Projeto-E94D5F?style=for-the-badge)](https://dynamic-product-table.netlify.app/)
 
 
 
